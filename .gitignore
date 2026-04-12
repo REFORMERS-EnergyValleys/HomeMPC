@@ -1,0 +1,32 @@
+# Virtual environments (anywhere in the repo)
+.venv/
+venv/
+env/
+ENV/
+**/.venv/
+**/venv/
+**/env/
+
+# OS Files
+.DS_Store
+
+
+# Manual
+PV forecasting/Plots
+PV forecasting/Model Save
+PV forecast/Data prepare
+
+Load forecasting/Test series
+Load forcasting/RandomForestRegression/Plots
+
+teleport_data_processing-main/outputs
+
+Weather fetcher/Weather_data
+
+Continuous MPC/Models/Load
+Continuous MPC/config
+Continuous MPC/Data
+Continuous MPC/MPC_outputs
+*.joblib
+
+
